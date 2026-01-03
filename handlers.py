@@ -23,7 +23,7 @@ async def test(message: Message):
     keyboard.adjust(2)
 
     await message.answer(
-        "Do you want to specify programming language?",
+        "Hello.\nThis bot fetches GitHub trending repositories\nDo you want to specify programming language?\nPress 'Yes'if so,else 'No'",
         reply_markup=keyboard.as_markup(),
     )
 
